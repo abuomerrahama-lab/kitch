@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 360" role="img" aria-label="تفصيل مطابخ ألوميتال وخشب حسب المقاس">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EFE7D8"/>
+      <stop offset="1" stop-color="#DCCDB4"/>
+    </linearGradient>
+    <linearGradient id="alu" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#C9CED2"/>
+      <stop offset="0.5" stop-color="#EEF0F2"/>
+      <stop offset="1" stop-color="#B4BABF"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#A9744A"/>
+      <stop offset="1" stop-color="#7C5234"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FBF7EE" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#E6DAC6" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+  <rect width="520" height="360" fill="url(#bg)"/>
+
+  <!-- Aluminium framed upper units -->
+  <g>
+    <rect x="40" y="40" width="200" height="120" rx="3" fill="url(#alu)" stroke="#8E959A" stroke-width="2"/>
+    <rect x="50" y="50" width="86" height="100" fill="url(#glass)" stroke="#8E959A"/>
+    <rect x="144" y="50" width="86" height="100" fill="url(#glass)" stroke="#8E959A"/>
+    <path d="M60 60l30 30M154 60l30 30" stroke="#FFFFFF" stroke-width="3" opacity="0.8"/>
+  </g>
+
+  <!-- Wooden lower units -->
+  <g>
+    <rect x="40" y="200" width="200" height="120" rx="3" fill="url(#wood)" stroke="#5E3F27" stroke-width="2"/>
+    <line x1="140" y1="204" x2="140" y2="316" stroke="#5E3F27" stroke-width="1.5"/>
+    <rect x="124" y="230" width="4" height="30" rx="2" fill="#E8D9BF"/>
+    <rect x="152" y="230" width="4" height="30" rx="2" fill="#E8D9BF"/>
+    <rect x="34" y="188" width="212" height="12" rx="2" fill="#F4F1EC" stroke="#D2CBC0"/>
+  </g>
+
+  <!-- Measuring tape -->
+  <g>
+    <rect x="300" y="210" width="96" height="96" rx="22" fill="#C99A66" stroke="#6E4A2E" stroke-width="3"/>
+    <circle cx="348" cy="258" r="22" fill="#39303E"/>
+    <circle cx="348" cy="258" r="8" fill="#C99A66"/>
+    <rect x="396" y="286" width="100" height="16" fill="#F2D27A" stroke="#B89642"/>
+    <g stroke="#6E5A22" stroke-width="1.5">
+      <line x1="406" y1="286" x2="406" y2="296"/><line x1="416" y1="286" x2="416" y2="292"/>
+      <line x1="426" y1="286" x2="426" y2="296"/><line x1="436" y1="286" x2="436" y2="292"/>
+      <line x1="446" y1="286" x2="446" y2="296"/><line x1="456" y1="286" x2="456" y2="292"/>
+      <line x1="466" y1="286" x2="466" y2="296"/><line x1="476" y1="286" x2="476" y2="292"/>
+      <line x1="486" y1="286" x2="486" y2="296"/>
+    </g>
+    <rect x="494" y="282" width="6" height="24" fill="#6E5A22"/>
+  </g>
+
+  <!-- Blueprint card -->
+  <g transform="rotate(-6 390 110)">
+    <rect x="300" y="50" width="180" height="120" rx="6" fill="#39303E"/>
+    <g stroke="#C99A66" stroke-width="2" fill="none">
+      <rect x="318" y="68" width="60" height="40"/>
+      <rect x="382" y="68" width="78" height="40"/>
+      <rect x="318" y="114" width="142" height="40"/>
+      <line x1="318" y1="62" x2="460" y2="62" stroke-dasharray="3 4"/>
+    </g>
+  </g>
+</svg>
