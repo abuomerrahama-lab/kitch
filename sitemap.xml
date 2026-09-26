@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://kitch.abads.site/</loc>
     <lastmod>2026-09-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
+    <image:image><image:loc>https://kitch.abads.site/img/kitchen-island-marble.jpg</image:loc></image:image>
+    <image:image><image:loc>https://kitch.abads.site/img/technician-installing.jpg</image:loc></image:image>
+    <image:image><image:loc>https://kitch.abads.site/img/soft-close-hinge.jpg</image:loc></image:image>
+    <image:image><image:loc>https://kitch.abads.site/img/kitchen-black-aluminum.jpg</image:loc></image:image>
+    <image:image><image:loc>https://kitch.abads.site/img/kitchen-sink-marble.jpg</image:loc></image:image>
+    <image:image><image:loc>https://kitch.abads.site/img/kitchen-wood-riyadh.jpg</image:loc></image:image>
   </url>
 </urlset>
