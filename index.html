@@ -7,7 +7,8 @@
 <!-- SEO Meta Tags -->
 <title>صيانة مطابخ بالرياض | تفصيل وتركيب مطابخ ألوميتال وخشب – فني متخصص</title>
 <meta name="description" content="فني صيانة وتفصيل وتركيب مطابخ بالرياض. تصليح أدراج المطابخ، تركيب مفصلات هيدروليك، صيانة وتلميع رخام المطابخ، تفصيل مطابخ ألوميتال وخشب حسب المقاس، وتغيير الأرفف والإكسسوارات. اتصل الآن 0531510418.">
-<meta name="keywords" content="صيانة مطابخ بالرياض, تفصيل مطابخ بالرياض, تركيب مطابخ بالرياض, فني مطابخ الرياض, تركيب مفصلات هيدروليك, تصليح أدراج المطابخ, صيانة رخام المطابخ, مطابخ ألوميتال الرياض, مطابخ خشب حسب المقاس, نجار مطابخ الرياض, فك وتركيب مطابخ">
+<meta name="author" content="أبو غزل">
+<meta name="keywords" content="أبو غزل مطابخ, صيانة مطابخ بالرياض, تفصيل مطابخ بالرياض, تركيب مطابخ بالرياض, فني مطابخ الرياض, تركيب مفصلات هيدروليك, تصليح أدراج المطابخ, صيانة رخام المطابخ, مطابخ ألوميتال الرياض, مطابخ خشب حسب المقاس, نجار مطابخ الرياض, فك وتركيب مطابخ">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <meta name="theme-color" content="#39303E">
 <meta name="geo.region" content="SA-01">
@@ -41,7 +42,12 @@
       "name": "أبو غزل — فني تفصيل وتركيب وصيانة المطابخ بالرياض",
       "alternateName": "أبو غزل للمطابخ",
       "description": "صيانة مطابخ بالرياض، تفصيل مطابخ ألوميتال وخشب حسب المقاس، تركيب مفصلات هيدروليك، تصليح أدراج ورخام المطابخ، وتغيير الأرفف والإكسسوارات.",
-      "image": "https://kitch.abads.site/og-image.jpg",
+      "image": [
+        "https://kitch.abads.site/og-image.jpg",
+        "https://kitch.abads.site/img/kitchen-island-marble.jpg",
+        "https://kitch.abads.site/img/kitchen-black-aluminum.jpg",
+        "https://kitch.abads.site/img/technician-installing.jpg"
+      ],
       "logo": "https://kitch.abads.site/favicon.svg",
       "telephone": "+966531510418",
       "url": "https://kitch.abads.site/",
@@ -134,7 +140,7 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preload" as="image" href="hero.svg" type="image/svg+xml">
+<link rel="preload" as="image" type="image/webp" imagesrcset="img/kitchen-island-marble-640.webp 640w, img/kitchen-island-marble-1200.webp 1200w" imagesizes="(max-width: 900px) 100vw, 560px">
 <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@400;700;800&family=El+Messiri:wght@500;600;700&display=swap" rel="stylesheet">
 <style>
   :root {
@@ -414,7 +420,9 @@
     border-radius: 16px;
     box-shadow: 0 18px 44px -16px rgba(46,38,32,0.35);
     display: block;
-    aspect-ratio: 640 / 500;
+    height: auto;
+    aspect-ratio: 4 / 3.4;
+    object-fit: cover;
     background: var(--bg-panel);
   }
   .hero-badge {
@@ -458,6 +466,27 @@
     font-size: 16px;
   }
   .head { text-align: center; margin-bottom: 44px; }
+
+  /* About */
+  .about .wrap {
+    display: grid;
+    grid-template-columns: 0.9fr 1.1fr;
+    gap: 48px;
+    align-items: center;
+  }
+  @media (max-width: 900px) {
+    .about .wrap { grid-template-columns: 1fr; gap: 28px; }
+  }
+  .about p { color: var(--ink-soft); font-size: 16px; margin: 16px 0 0; }
+  .about-art img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+    border-radius: 16px;
+    box-shadow: 0 16px 40px -15px rgba(46,38,32,0.3);
+    display: block;
+  }
 
   /* Problems */
   .problems {
@@ -516,14 +545,15 @@
   }
   .svc-icon {
     flex: 0 0 auto;
-    width: 300px;
+    width: 320px;
     border-radius: 14px;
     overflow: hidden;
     box-shadow: 0 12px 30px -12px rgba(46,38,32,0.28);
   }
   .svc-icon img {
     width: 100%;
-    aspect-ratio: 520 / 360;
+    height: auto;
+    aspect-ratio: 3 / 2;
     display: block;
     object-fit: cover;
   }
@@ -649,7 +679,9 @@
   }
   .gallery-showcase img {
     width: 100%;
-    aspect-ratio: 600 / 420;
+    height: auto;
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
     border-radius: 14px;
     box-shadow: 0 16px 40px -15px rgba(46,38,32,0.3);
     display: block;
@@ -887,8 +919,36 @@
         </div>
       </div>
       <div class="hero-art">
-        <img src="hero.svg" width="640" height="500" alt="صيانة وتفصيل وتركيب مطابخ خشب وألوميتال بالرياض مع سطح رخام" fetchpriority="high">
+        <picture>
+          <source type="image/webp" srcset="img/kitchen-island-marble-640.webp 640w, img/kitchen-island-marble-1200.webp 1200w" sizes="(max-width: 900px) 100vw, 560px">
+          <img src="img/kitchen-island-marble.jpg" width="1200" height="800" alt="تفصيل وتركيب مطبخ خشب بجزيرة رخام وإنارة ليد في الرياض" fetchpriority="high">
+        </picture>
         <div class="hero-badge" aria-hidden="true"><b>✔</b><span>خبرة طويلة في مطابخ<br>الألمنيوم والخشب</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about section">
+    <div class="wrap">
+      <div class="about-art">
+        <picture>
+          <source type="image/webp" srcset="img/technician-installing-640.webp 640w, img/technician-installing-1200.webp 1200w" sizes="(max-width: 900px) 100vw, 500px">
+          <img src="img/technician-installing.jpg" width="1200" height="800" alt="فني مطابخ أبو غزل يضبط أبواب خزائن المطبخ بميزان الليزر في الرياض" loading="lazy" decoding="async">
+        </picture>
+      </div>
+      <div>
+        <span class="kicker">من نحن؟</span>
+        <h2>فريق فنيين متخصصين في مطابخ الألمنيوم والخشب بخبرة طويلة</h2>
+        <p>
+          المطبخ هو قلب البيت، وأي خلل بسيط في درج أو باب يسبب إزعاجاً يومياً. لذلك نحرص في <strong>أبو غزل</strong> على اختيار أفضل المواد والتنفيذ المتقن والاهتمام بكل التفاصيل: من تصميم وتفصيل مطابخ حديثة بالمقاس، إلى صيانتها وتركيبها بطريقة احترافية بدون خدوش.
+        </p>
+        <p>
+          نعمل بميزان ليزر وقطع غيار أصلية، ونلتزم بالمواعيد، ونختبر كل باب ودرج أمامك قبل التسليم — لتحصل على مطبخ طويل الأمد وبجودة عالية.
+        </p>
+        <div class="cta-row">
+          <a class="btn btn-solid" href="tel:+966531510418">تواصل الآن مع أبو غزل: <span dir="ltr">0531510418</span></a>
+        </div>
       </div>
     </div>
   </section>
@@ -940,7 +1000,10 @@
 
       <div class="svc-row">
         <div class="svc-icon">
-          <img src="service-maintenance.svg" width="520" height="360" alt="تركيب مفصلات هيدروليك وتعديل أبواب خزائن المطبخ بالرياض" loading="lazy" decoding="async">
+          <picture>
+          <source type="image/webp" srcset="img/soft-close-hinge-640.webp 640w, img/soft-close-hinge-1200.webp 1200w" sizes="(max-width: 820px) 100vw, 320px">
+          <img src="img/soft-close-hinge.jpg" width="1200" height="800" alt="تركيب مفصلات هيدروليك ومسارات أدراج رمان بلي لصيانة المطابخ بالرياض" loading="lazy" decoding="async">
+        </picture>
         </div>
         <div class="svc-text">
           <h3>صيانة مطابخ بالرياض وتركيب مفصلات هيدروليك</h3>
@@ -958,7 +1021,10 @@
 
       <div class="svc-row">
         <div class="svc-icon">
-          <img src="service-custom.svg" width="520" height="360" alt="تفصيل مطابخ ألوميتال وخشب حسب المقاس بالرياض" loading="lazy" decoding="async">
+          <picture>
+          <source type="image/webp" srcset="img/kitchen-black-aluminum-640.webp 640w, img/kitchen-black-aluminum-1200.webp 1200w" sizes="(max-width: 820px) 100vw, 320px">
+          <img src="img/kitchen-black-aluminum.jpg" width="1200" height="800" alt="تفصيل مطبخ ألمنيوم أسود مطفي مع رخام وإنارة ليد حسب المقاس بالرياض" loading="lazy" decoding="async">
+        </picture>
         </div>
         <div class="svc-text">
           <h3>تفصيل مطابخ ألوميتال وخشب حسب المقاس</h3>
@@ -979,7 +1045,10 @@
 
       <div class="svc-row">
         <div class="svc-icon">
-          <img src="gallery.svg" width="600" height="420" alt="تغيير أرفف وإكسسوارات المطبخ وصيانة الرخام بالرياض" loading="lazy" decoding="async">
+          <picture>
+          <source type="image/webp" srcset="img/kitchen-sink-marble-640.webp 640w, img/kitchen-sink-marble-1200.webp 1200w" sizes="(max-width: 820px) 100vw, 320px">
+          <img src="img/kitchen-sink-marble.jpg" width="1200" height="800" alt="تركيب مغسلة وخلاط وصيانة رخام المطبخ بالرياض" loading="lazy" decoding="async">
+        </picture>
         </div>
         <div class="svc-text">
           <h3>تغيير الأرفف والإكسسوارات وصيانة الرخام</h3>
@@ -1027,7 +1096,10 @@
       <span class="kicker">جودة التنفيذ</span>
       <h2>تفاصيل صغيرة تصنع مطبخاً يدوم</h2>
       <div class="gallery-showcase">
-        <img src="hero.svg" width="640" height="500" alt="مطبخ مفصل حسب المقاس بخزائن علوية وسفلية وإنارة ليد بالرياض" loading="lazy" decoding="async">
+        <picture>
+          <source type="image/webp" srcset="img/kitchen-wood-riyadh-640.webp 640w, img/kitchen-wood-riyadh-1200.webp 1200w" sizes="(max-width: 900px) 100vw, 600px">
+          <img src="img/kitchen-wood-riyadh.jpg" width="1200" height="800" alt="مطبخ خشب فاخر مفصل حسب المقاس بخزائن حتى السقف وأفران مدمجة في الرياض" loading="lazy" decoding="async">
+        </picture>
         <ul class="highlight-list">
           <li>
             <span class="highlight-num">١</span>

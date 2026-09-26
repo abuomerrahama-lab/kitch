@@ -5,6 +5,7 @@
 - `index.html` — الصفحة كاملة مع Meta و Open Graph و Schema (LocalBusiness + Services + FAQ).
 - `CNAME` — النطاق المخصص لـ GitHub Pages.
 - `robots.txt`, `sitemap.xml` — لمحركات البحث.
-- `*.svg`, `og-image.jpg` — الرسومات وصورة المشاركة.
+- `img/` — صور المطابخ بصيغة WebP (640 و 1200) مع نسخة JPG احتياطية.
+- `og-image.jpg` — صورة المشاركة في واتساب والشبكات الاجتماعية.
 
 رقم التواصل: 0531510418 (اتصال وواتساب).
