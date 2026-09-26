@@ -321,7 +321,13 @@
       grid-template-columns: 1fr;
       gap: 32px;
     }
-    .hero { padding-top: 32px; padding-bottom: 40px; }
+    .hero { padding-top: 16px; padding-bottom: 40px; }
+    /* Mobile: show the photo first, right under the top bar */
+    .hero .hero-art { order: -1; }
+    .hero .wrap { gap: 22px; }
+    .hero .hero-art img { aspect-ratio: 16 / 10; border-radius: 14px; }
+    .hero .hero-badge { bottom: 10px; right: 10px; padding: 8px 12px; font-size: 12.5px; }
+    .hero .hero-badge b { font-size: 18px; }
   }
 
   .eyebrow {
